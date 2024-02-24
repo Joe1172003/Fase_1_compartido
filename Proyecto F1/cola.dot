@@ -1,0 +1,4 @@
+ digraph Cola {
+ rankdir=LR;
+ node [shape=box, style=filled, color=blue, fillcolor=pink]
+ }

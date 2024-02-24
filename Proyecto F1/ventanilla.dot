@@ -1,0 +1,16 @@
+ digraph VentanillaList {
+ rankdir=TB;
+ node [shape=record, style=filled, fillcolor=lightblue]
+ Ventanilla2 [label="Ventanilla ID: 2"]                                                                                                                                                                  
+ subgraph cluster2 {
+ rankdir=TB;
+ label= "Ventanilla 2"
+ node11 [label="Img : 11\n id cliente: 3\nTipo: G"]                                                                                                                                                      
+ node11 -> node10                                                                                                                                                                                        
+ node10 [label="Img : 10\n id cliente: 3\nTipo: G"]                                                                                                                                                      
+ node10 -> node9                                                                                                                                                                                         
+ node9 [label="Img : 9\n id cliente: 3\nTipo: P"]                                                                                                                                                        
+ }
+ Ventanilla2 -> Ventanilla1                                                                                                                                                                              
+ Ventanilla1 [label="Ventanilla ID: 1"]                                                                                                                                                                  
+ }

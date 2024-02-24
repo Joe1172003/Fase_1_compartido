@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "nombre": "Sergio",
+      "img_p": 2, 
+      "img_g": 2
+    },
+    {
+      "id": 2,
+      "nombre": "Joel",
+      "img_p": 3,
+      "img_g": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Marck",
+      "img_p": 1,
+      "img_g": 3
+    }
+]
+
